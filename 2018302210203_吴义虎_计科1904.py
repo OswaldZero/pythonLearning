@@ -172,7 +172,7 @@ print(ste1==ste2)
 # 4.4.6 其他内建方法
 #类似于discard,只不过这个有异常机制
 set1.remove("p")
-#删除且返回
-set1.pop("y")
+#删除任意一个且返回
+set1.pop()
 #清除所有元素
 set1.clear()
